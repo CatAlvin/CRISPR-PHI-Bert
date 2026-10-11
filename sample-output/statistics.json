@@ -1,0 +1,18 @@
+{
+  "kind": "synthetic_statistical_validation",
+  "encoder_executed": false,
+  "embedding_dimensions": 4,
+  "reference_rows": 18,
+  "scores": {
+    "near_reference": {
+      "compatibility_score": 0.990435690488768,
+      "mahalanobis_distance": 1.3909373911883827,
+      "gmm_log_density": 7.224839634132054
+    },
+    "far_reference": {
+      "compatibility_score": 0.0,
+      "mahalanobis_distance": 80.59136881853247,
+      "gmm_log_density": -156418.37753838167
+    }
+  }
+}

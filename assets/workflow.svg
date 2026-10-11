@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="510" viewBox="0 0 1280 510" role="img" aria-labelledby="title desc">
+<title id="title">CRISPRPHIBert research workflow and public implementation scope</title>
+<desc id="desc">Host genome annotation supplies Cas proteins, repeats and spacers. Homology expansion adds spacers for BLAST search. Strict alignments are retained. Weaker matches can receive an optional DNABERT-S reference score. The public offline example begins with prepared synthetic spacers and cached alignments.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10" fill="#527167"/></marker></defs>
+<rect width="1280" height="510" rx="12" fill="#edf2ed"/>
+<g font-family="Segoe UI,Arial,Microsoft YaHei,sans-serif" fill="#183d30">
+<text x="42" y="50" font-size="15" letter-spacing="2">CRISPRPHIBERT / DATA FLOW</text>
+<text x="42" y="100" font-size="34" font-weight="700">From host spacers to candidate phage evidence</text>
+<text x="42" y="136" font-size="21" fill="#526c61">宿主 spacer 扩展、序列搜索与候选证据关联</text>
+<g fill="#fff" stroke="#c5d5cb"><rect x="42" y="180" width="235" height="112" rx="8"/><rect x="324" y="180" width="260" height="112" rx="8"/><rect x="631" y="180" width="240" height="112" rx="8"/></g>
+<text x="60" y="211" font-size="15" fill="#526c61">RESEARCH INPUT / 研究输入</text>
+<text x="60" y="242" font-size="23" font-weight="600">Host genome</text><text x="60" y="273" font-size="17">CRISPR-Cas annotation</text>
+<text x="342" y="211" font-size="15" fill="#526c61">SPACER EXPANSION / 扩展</text>
+<text x="342" y="242" font-size="23" font-weight="600">Cas + repeat matches</text><text x="342" y="273" font-size="17">Deduplicated spacer set</text>
+<text x="649" y="211" font-size="15" fill="#526c61">SEQUENCE SEARCH / 搜索</text>
+<text x="649" y="242" font-size="23" font-weight="600">BLAST alignments</text><text x="649" y="273" font-size="17">IDs, coordinates and strand</text>
+<rect x="942" y="172" width="296" height="94" rx="8" fill="#245a4b"/>
+<text x="962" y="210" font-size="23" font-weight="600" fill="#fff">Strict alignment evidence</text><text x="962" y="242" font-size="18" fill="#d3e8de">Retained directly / 直接保留</text>
+<rect x="942" y="310" width="296" height="111" rx="8" fill="#fff" stroke="#a4bbae" stroke-dasharray="5 4"/>
+<text x="962" y="344" font-size="23" font-weight="600">DNABERT-S + statistics</text><text x="962" y="375" font-size="18">Optional compatibility score</text><text x="962" y="402" font-size="17" fill="#526c61">Weaker matches / 较弱比对</text>
+<text x="42" y="358" font-size="20" font-weight="600">Public offline example / 公开离线示例</text>
+<text x="42" y="391" font-size="18" fill="#526c61">Prepared spacers → cached alignments → fragments → evidence table</text>
+<text x="42" y="466" font-size="17" fill="#526c61">Synthetic fixtures verify data handling. The optional encoder is outside the offline run.</text>
+</g>
+<g stroke="#527167" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M277 236H309"/><path d="M584 236H616"/><path d="M871 236H907V220H927"/><path d="M871 236H907V360H927"/></g>
+</svg>

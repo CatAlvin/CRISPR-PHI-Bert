@@ -1,0 +1,10 @@
+{
+  "config.json": "cda7e589a8964f53f839c8cca2f3fceeb525541f0989b1cba914c294b46b9714",
+  "homologs.json": "506566adbef6666a4232147b587b4455b5c776b6e6f9cfcbe4e9c6a03ac1322c",
+  "illustrative_scores.json": "f1de70a1964de93abbf13ff80514d9b7cca56119fecae914471ee9b4c6601b8e",
+  "input_spacers.fasta": "61a3344b1b83a88e01e91754546fd8cea8947ac702e5bfff89d97eb7c87e2642",
+  "protein_blast.tsv": "052250acb1b11597ef272241901c321dcc3b7250951aec74db65c77ca6064f79",
+  "spacer_blast.tsv": "473a2d3e3380c93302252acadecc71de8126706166c6c33b49fa614487c6e076",
+  "subjects.fasta": "7262fa95fb38d11fd65cbb0893c46ce867872b44015cc111d6349c50744940d6",
+  "synthetic_embeddings.json": "858364482e799fce927fb2f1c8b4df184d9d880ac46f35328c7fda1c2a7fff34"
+}

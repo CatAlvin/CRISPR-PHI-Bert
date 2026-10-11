@@ -1,0 +1,6 @@
+{
+  "data_kind": "synthetic",
+  "seed": 1133680,
+  "repeat": "GTTCACTGCCGTACAGGCAGCTTAGAAA",
+  "purpose": "Deterministic engineering validation; no biological benchmark"
+}

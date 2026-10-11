@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "tests": {
+    "run": 48,
+    "passed": 48,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_groups": {
+    "ClassifierTests": 6,
+    "EvidenceTests": 34,
+    "SubmissionTests": 8
+  },
+  "environment": {
+    "python": "3.11.5",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.9.1",
+    "platform": "Windows"
+  },
+  "fixture_data_kind": "synthetic",
+  "fixture_summary": {
+    "data_kind": "synthetic",
+    "score_kind": "illustrative_manual_scores",
+    "encoder_executed": false,
+    "input_spacers": 3,
+    "expanded_spacers": 7,
+    "protein_candidates": 4,
+    "protein_hits_selected": 3,
+    "alignment_records": 6,
+    "strict_alignments": 3,
+    "embedding_supported": 1,
+    "unresolved": 2,
+    "accepted_candidates": 2,
+    "flank_each_side_bp": 20,
+    "score_threshold": 0.9
+  },
+  "fixture_hashes_verified": 8,
+  "reference_output_matches": true,
+  "statistical_fixture": {
+    "kind": "synthetic_statistical_validation",
+    "reference_rows": 18,
+    "embedding_dimensions": 4
+  },
+  "live_ncbi_requests_executed": false,
+  "installed_blast_executed": false,
+  "dnabert_weights_executed": false,
+  "complete_biological_pipeline_executed": false,
+  "labelled_biological_benchmark_executed": false
+}

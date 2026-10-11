@@ -1,0 +1,16 @@
+{
+  "data_kind": "synthetic",
+  "score_kind": "illustrative_manual_scores",
+  "encoder_executed": false,
+  "input_spacers": 3,
+  "expanded_spacers": 7,
+  "protein_candidates": 4,
+  "protein_hits_selected": 3,
+  "alignment_records": 6,
+  "strict_alignments": 3,
+  "embedding_supported": 1,
+  "unresolved": 2,
+  "accepted_candidates": 2,
+  "flank_each_side_bp": 20,
+  "score_threshold": 0.9
+}

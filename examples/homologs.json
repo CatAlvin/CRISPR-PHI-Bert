@@ -1,0 +1,34 @@
+{
+  "protein_A": {
+    "array_id": "homA",
+    "repeat": "GTTCACTGCCGTACAGGCAGCTTAGAAA",
+    "spacers": [
+      "CCTCTCTCTAACCTGACACTAAACGCCTTT",
+      "ATCGGAATTTTTATATACGAAGCGTTATGA",
+      "GCGTACGGATATTCCAACTTCAGAATTATC"
+    ]
+  },
+  "protein_B": {
+    "array_id": "homB",
+    "repeat": "GTTCACTGCCGTACAGGCAGCTTAGAAA",
+    "spacers": [
+      "GCGTACGGATATTCCAACTTCAGAATTATC",
+      "GAAACGCCGAGATAACAGGGCTTCGTCACG",
+      "GTTGCCAGGTTATTTTTACCGGTCACTAGT"
+    ]
+  },
+  "protein_C": {
+    "array_id": "homC",
+    "repeat": "GTTCACTGCCGTACAGGCAGCTTAGAAA",
+    "spacers": [
+      "TGCCCTCTCGGTCCGCGGCTCCCCATTTAT"
+    ]
+  },
+  "protein_D": {
+    "array_id": "homD",
+    "repeat": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "spacers": [
+      "ATTGTATCGCTGGTGAATTGTGGAACGTTT"
+    ]
+  }
+}

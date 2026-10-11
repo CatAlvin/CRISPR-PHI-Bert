@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+demo-output*/
+tests/.tmp/
+.env
+*.pkl
+*.pickle
+*.pt
+*.bin
+*.safetensors

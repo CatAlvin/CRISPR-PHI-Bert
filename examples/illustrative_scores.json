@@ -1,0 +1,9 @@
+{
+  "kind": "illustrative_manual_scores",
+  "description": "Manually chosen to exercise merge branches. Not DNABERT predictions.",
+  "scores": {
+    "hit_0004": 0.94,
+    "hit_0005": 0.41,
+    "hit_0006": 0.08
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "subject_id": "phage_A",
+    "unique_spacers": 2
+  },
+  {
+    "subject_id": "phage_B",
+    "unique_spacers": 2
+  }
+]

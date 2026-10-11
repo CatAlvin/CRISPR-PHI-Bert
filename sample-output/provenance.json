@@ -1,0 +1,34 @@
+{
+  "input_1": {
+    "source": "input",
+    "level": "LEVEL-1"
+  },
+  "input_2": {
+    "source": "input",
+    "level": "LEVEL-1"
+  },
+  "input_3": {
+    "source": "input",
+    "level": "LEVEL-1"
+  },
+  "homA_2": {
+    "source": "protein_A",
+    "level": "LEVEL-2",
+    "reverse_complemented": false
+  },
+  "homA_3": {
+    "source": "protein_A",
+    "level": "LEVEL-2",
+    "reverse_complemented": false
+  },
+  "homB_2": {
+    "source": "protein_B",
+    "level": "LEVEL-3",
+    "reverse_complemented": false
+  },
+  "homB_3": {
+    "source": "protein_B",
+    "level": "LEVEL-3",
+    "reverse_complemented": false
+  }
+}

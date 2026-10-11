@@ -1,0 +1,7 @@
+hit_id	query_id	subject_id	evidence	compatibility_score	accepted
+hit_0001	input_1	phage_A	strict_alignment		True
+hit_0002	input_2	phage_A	strict_alignment		True
+hit_0003	homA_2	phage_B	strict_alignment		True
+hit_0004	homA_3	phage_B	embedding_supported	0.94	True
+hit_0005	homB_2	phage_C	unresolved	0.41	False
+hit_0006	homB_3	phage_A	unresolved	0.08	False
