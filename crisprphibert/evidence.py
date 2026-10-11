@@ -54,7 +54,9 @@ def read_fasta(path):
 
 def write_fasta(path, records):
     Path(path).write_text(
-        "".join(f">{name}\n{seq}\n" for name, seq in records.items()), encoding="utf-8"
+        "".join(f">{name}\n{seq}\n" for name, seq in records.items()),
+        encoding="utf-8",
+        newline="\n",
     )
 
 

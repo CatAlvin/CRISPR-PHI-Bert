@@ -15,6 +15,6 @@ This version was prepared in October 2026 from the archived research implementat
 | Encoder pooled padding tokens, lacked `eval()` and assumed named outputs | Added attention-mask-aware pooling, inference mode, CPU transfer and tuple-output handling. |
 | Covariance inversion and scoring could be numerically unstable | Regularized covariance, pseudo-inverse, seeded GMM and a stable sigmoid. |
 | Shell string construction and raw pickle dependencies | The public code uses argument arrays for commands and JSON fixtures for metadata. |
-| Output comparison across operating systems | TSV output uses LF consistently. A verification script checks the reference output and input SHA-256 hashes; GitHub Actions repeats that check on Linux. |
+| Output comparison across operating systems | Text fixtures and generated FASTA/JSON/TSV outputs use LF consistently. A verification script checks the reference output and raw input SHA-256 hashes; GitHub Actions repeats that check on Linux. |
 
 The compact repeat-alignment implementation uses a linear-gap global alignment; the archived source used Biopython `pairwise2.globalms` with affine-gap scoring. The display implementation is conceptually similar and has its own test coverage; it is not a byte-for-byte scientific reproduction of that alignment step.

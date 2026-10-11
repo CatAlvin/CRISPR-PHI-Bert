@@ -183,6 +183,8 @@ class EvidenceTests(unittest.TestCase):
             (3, 1, 2),
         )
         self.assertFalse(summary["encoder_executed"])
+        for path in out.iterdir():
+            self.assertNotIn(b"\r\n", path.read_bytes(), path.name)
         self.assertEqual(len(read_fasta(out / "flank_fragments.fasta")), 6)
 
     def test_blast_wrapper_checks_exit_and_uses_argument_array(self):
