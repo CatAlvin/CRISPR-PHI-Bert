@@ -29,15 +29,13 @@ The project was supervised by **Dr. Dan Wang / 王丹老师**. The team comprise
 The integration key is an **alignment ID**, rather than a candidate genome ID. Two matches on the same genome can therefore keep different fragments and scores. Strict alignments are retained even when a supplemental score is unavailable.
 
 ```mermaid
-flowchart LR
-    A[Validated spacers] --> B[BLAST alignment records]
-    B --> C[Alignment ID + coordinates + strand]
-    C --> D[Flank fragment]
-    D --> E[Optional compatibility score]
-    C --> F[Strict alignment rule]
-    E --> G[Join by alignment ID]
-    F --> G
-    G --> H[Candidate evidence table]
+flowchart TD
+    A[BLAST alignment records] --> B[Alignment ID + coordinates + strand]
+    B --> C[Flank fragment + optional score]
+    B --> D[Strict alignment rule]
+    C --> E[Join by alignment ID]
+    D --> E
+    E --> F[Candidate evidence table]
 ```
 
 The statistical stage uses **DNABERT-S**, followed by two-component PCA, a three-component Gaussian mixture with tied covariance and Mahalanobis distance. It measures compatibility with fragments from strict alignments. The score is uncalibrated; interpreting it as an infection probability requires a labelled biological evaluation. See the [scoring formula and sequence contracts](docs/WORKFLOW.md).
